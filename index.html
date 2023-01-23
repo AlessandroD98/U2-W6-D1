@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Esercizio</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="form__group field">
+        <input type="text" class="form__field" placeholder="Name" id="InputName" required />
+        <label for="name" class="form__label">Name</label>
+      </div>
+      <div class="form__group field">
+        <input type="text" placeholder="Surname" class="form__field" id="InputSurname" required />
+        <label for="name" class="form__label">Surname</label>
+      </div>
+      <div class="form__group field">
+        <input type="date" class="form__field" id="InputBday" required />
+      </div>
+      <button class="button button--secondary" id="SaveButton"><span class="button__inner">Save</span></button>
+    </div>
+    <h2>Tanta bella gente</h2>
+    <table id="table">
+      <tr>
+        <th>Name</th>
+        <th>Surname</th>
+        <th>Bday</th>
+      </tr>
+    </table>
+    <script src="./index.js"></script>
+  </body>
+</html>
